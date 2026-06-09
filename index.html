@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hypnotic Smoke Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1 class="store-title">Hypnotic Smoke Shop</h1>
+</header>
+
+<!-- 🔥 BANNER -->
+<div class="banner">
+    <div class="banner-track">
+        💨 Vapes • 🔥 Best Prices • 🛍️ Your One Stop Shop • 💯 Quality Products • 🚬 Geekbar • 🍓 Blue Razz Ice • ⚡ Deals Every Day • 💨 Smoke Shop Specials •
+    </div>
+</div>
+
+<!-- SEARCH -->
+<div class="search-container">
+    <input id="search" type="text"
+        placeholder="Search Blue Razz, Geekbar, Liquor..."
+        oninput="searchSite()">
+</div>
+
+<!-- GRID -->
+<div class="grid" id="results">
+
+    <a class="card" href="new.html">
+        <img src="images/new-arrivals.jpeg">
+        <h2>New Arrivals</h2>
+    </a>
+
+    <a class="card" href="geekbar.html">
+        <img src="images/Geekbar-main.jpeg">
+        <h2>Geekbar</h2>
+    </a>
+
+    <a class="card" href="offstamp.html">
+        <img src="images/Off-Stamp-main.jpeg">
+        <h2>Off Stamp</h2>
+    </a>
+
+    <a class="card" href="raz.html">
+        <img src="images/raz.jpeg">
+        <h2>Raz</h2>
+    </a>
+
+    <a class="card" href="liquor.html">
+        <img src="images/Liquor logo-main.jpg">
+        <h2>Liquor</h2>
+    </a>
+
+    <a class="card" href="pods.html">
+        <img src="images/pods.jpeg">
+        <h2>Pods</h2>
+    </a>
+
+    <a class="card" href="hookah.html">
+        <img src="images/hookah.jpeg">
+        <h2>Hookah</h2>
+    </a>
+
+</div>
+
+<!-- ZOOM -->
+<div id="modal" onclick="closeZoom()">
+    <img id="modalImg">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
